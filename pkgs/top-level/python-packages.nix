@@ -11986,6 +11986,8 @@ self: super: with self; {
 
   mypy-extensions = callPackage ../development/python-modules/mypy/extensions.nix { };
 
+  mypy-gitlab-code-quality = callPackage ../development/python-modules/mypy-gitlab-code-quality/default.nix { };
+
   mypy-protobuf = callPackage ../development/python-modules/mypy-protobuf { };
 
   mypy-protobuf_3_6 = callPackage ../development/python-modules/mypy-protobuf_3_6 { };
